@@ -18,6 +18,14 @@ namespace CloudFolder
             string SecretKey = "Enter Secret Key Here";					
             string existingBucketName = "Name of The Bucket in S3";			
             string directoryPath = "Path of the location of Cloud Folder";
+
+	    /*
+	     *
+		NOTE: Check your Region of the bucket (next line).
+		      This bucket is based was Mumbai i.e why region is APSouth1
+		      Check region code in the resources section.
+	     *
+	     */
 		
             try
             {
