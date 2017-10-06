@@ -2,8 +2,7 @@
 Transfer any data to Amazon S3 within seconds.
 
 # You Will Need
-AWS account (access key, secret key & Bucket in S3)
-   
+AWS account (access key, secret key & Bucket in S3)  
 In AWS go to IAM, create new user give the user full access of S3 and copy access key & secret key
 Add AWSS3 NuGet package.
 
