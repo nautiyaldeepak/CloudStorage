@@ -10,10 +10,15 @@ namespace CloudFolder
         static void Main(string[] args)
         {
             Console.WriteLine("Transferring Data To Amazon Cloud......");
-            string AccessKey = "Enter Access Key Here";
-            string SecretKey = "Enter Secret Key Here";
-            string existingBucketName = "Name of The Bucket in S3";
+
+	    /*
+	    	Enter Your Credentials Below (Next 4 Lines)
+	    */
+            string AccessKey = "Enter Access Key Here";					
+            string SecretKey = "Enter Secret Key Here";					
+            string existingBucketName = "Name of The Bucket in S3";			
             string directoryPath = "Path of the location of Cloud Folder";
+		
             try
             {
                 TransferUtility directoryTransferUtility = new TransferUtility(new AmazonS3Client(AccessKey, SecretKey, Amazon.RegionEndpoint.APSouth1));
