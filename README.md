@@ -14,4 +14,4 @@ Enter the credentials (access & secret key)
 Run the program and all data will in the folder will be transferred to your bucket in the cloud with in seconds.
 
 # NOTE 
-Do not share AWS credentials. 
+Do not share AWS credentials.
