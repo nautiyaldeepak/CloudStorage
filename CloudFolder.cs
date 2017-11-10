@@ -42,10 +42,9 @@ namespace CloudFolder
                 };
                 directoryTransferUtility.UploadDirectory(request);
             }
-            catch (AmazonS3Exception e)
+            catch (Exception e)
             {
-                Console.WriteLine("There is Some Problem");
-                Console.WriteLine(e.Message, e.InnerException);
+                Console.WriteLine("ERROR MESSAGE : " + e.Message);
             }
             Directory.Delete(directoryPath, true);
             Directory.CreateDirectory(directoryPath);
