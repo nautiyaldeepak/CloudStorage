@@ -32,7 +32,7 @@ namespace CloudFolder
 		
             try
             {
-                TransferUtility directoryTransferUtility = new TransferUtility(new AmazonS3Client(AccessKey, SecretKey, Amazon.RegionEndpoint.Region));
+                TransferUtility directoryTransferUtility = new TransferUtility(new AmazonS3Client(AccessKey, SecretKey, Amazon.RegionEndpoint.APSouth1));
                 directoryTransferUtility.UploadDirectory(directoryPath, existingBucketName);
                 directoryTransferUtility.UploadDirectory(directoryPath, existingBucketName, "*.*", SearchOption.AllDirectories);
                 TransferUtilityUploadDirectoryRequest request = new TransferUtilityUploadDirectoryRequest
