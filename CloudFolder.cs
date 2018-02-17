@@ -24,9 +24,11 @@ namespace CloudFolder
 
 	    /*
 	     *
+	     
 		NOTE: Check your Region of the bucket (next line).
 		      This bucket is based was Mumbai i.e why region is APSouth1
 		      Check region code in the resources section.
+	     
 	     *
 	     */
 		
