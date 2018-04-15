@@ -12,7 +12,7 @@ namespace CloudFolder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Transferring Data To Amazon Cloud......");
+            Console.WriteLine("Transferring Data To S3......");
 
 	    /*
 	    	Enter Your Credentials Below (Next 4 Lines)
