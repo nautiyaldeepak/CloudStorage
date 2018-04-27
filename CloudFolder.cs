@@ -1,3 +1,11 @@
+	/*
+*
+*
+	New Regions will be soon included
+*
+*
+	*/
+
 //  Environment: Visual Studio 2017
 //  Download NuGet Package AWSSDK.S3﻿
 //  Use .Net Core Framework
