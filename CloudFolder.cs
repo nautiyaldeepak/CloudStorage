@@ -2,6 +2,7 @@
 *
 *
 	New Regions will be soon included
+	China, Sweden and France { New regions }
 *
 *
 	*/
