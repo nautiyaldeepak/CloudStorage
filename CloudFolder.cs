@@ -1,12 +1,3 @@
-	/*
-*
-*
-	New Regions will be soon included
-	China, Sweden and France { New regions }
-*
-*
-	*/
-
 //  Environment: Visual Studio 2017
 //  Download NuGet Package AWSSDK.S3﻿
 //  Use .Net Core Framework
