@@ -60,6 +60,7 @@ namespace CloudFolder
             string existingBucketName = "Name of The Bucket in S3";			
             string directoryPath = "Path of the location of Cloud Folder";
 	    string NameOfTheRegion = "NameOfTheRegion";	
+	    string RegionOfTheBucket = " Enter Region Name >> Eg: mumbai ";
 
 	    /*
 	     *
@@ -73,7 +74,7 @@ namespace CloudFolder
 		
             try
             {
-                TransferUtility directoryTransferUtility = new TransferUtility(new AmazonS3Client(AccessKey, SecretKey, Amazon.RegionEndpoint.APSouth1));
+                TransferUtility directoryTransferUtility = new TransferUtility(new AmazonS3Client(AccessKey, SecretKey, Amazon.RegionEndpoint.GetBySystemName(RegionOfTheBucket)));
                 directoryTransferUtility.UploadDirectory(directoryPath, existingBucketName);
                 directoryTransferUtility.UploadDirectory(directoryPath, existingBucketName, "*.*", SearchOption.AllDirectories);
                 TransferUtilityUploadDirectoryRequest request = new TransferUtilityUploadDirectoryRequest
