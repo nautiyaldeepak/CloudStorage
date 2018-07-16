@@ -61,17 +61,6 @@ namespace CloudFolder
             string directoryPath = "Path of the location of Cloud Folder";
 	    string NameOfTheRegion = "NameOfTheRegion";	
 	    string RegionOfTheBucket = " Enter Region Name >> Eg: mumbai ";
-
-	    /*
-	     *
-	     
-		NOTE: Check your Region of the bucket (next line).
-		      This bucket is based was Mumbai i.e why region is APSouth1
-		      Check region code in the resources section.
-	     
-	     *
-	     */
-		
             try
             {
                 TransferUtility directoryTransferUtility = new TransferUtility(new AmazonS3Client(AccessKey, SecretKey, Amazon.RegionEndpoint.GetBySystemName(RegionOfTheBucket)));
