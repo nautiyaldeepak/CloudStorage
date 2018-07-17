@@ -8,10 +8,10 @@ Add AWSS3 NuGet package.
 Giving Access Key & Secret Key of the AWS Account can make your account vulnearable.
 
 ## What You Need To Do
-Create a folder, mention it's path in the code.
-Enter the bucket name in which the data will be transferred.
-Enter the credentials (access & secret key)
-Run the program and all data will in the folder will be transferred to your bucket in the cloud with in seconds.
+1. Create a folder, mention its path in the code.
+2. Enter the bucket name in which the data will be transferred.
+3. Enter the credentials (access & secret key)
+4. Run the program and all data in the folder will be transferred to your bucket in the cloud within seconds.
 
 ## NOTE 
 Do not share AWS credentials.
