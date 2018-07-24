@@ -55,12 +55,12 @@ namespace CloudFolder
 	    	Enter Your Credentials Below (Next 4 Lines)
 		If you are using IAM user then allow access to S3 (policy)
 	    */
-            string AccessKey = "Enter Access Key Here";					
-            string SecretKey = "Enter Secret Key Here";					
-            string existingBucketName = "Name of The Bucket in S3";			
-            string directoryPath = "Path of the location of Cloud Folder";
-	    string NameOfTheRegion = "NameOfTheRegion";	
-	    string RegionOfTheBucket = " Enter Region Name >> Eg: mumbai ";
+            string AccessKey = " *** Enter Access Key Here *** ";					
+            string SecretKey = " *** Enter Secret Key Here *** ";					
+            string existingBucketName = " *** Name of The Bucket in S3 *** ";			
+            string directoryPath = " *** Path of the location of Cloud Folder *** ";
+	    string NameOfTheRegion = " *** NameOfTheRegion *** ";	
+	    string RegionOfTheBucket = " *** Enter Region Name *** ";
             try
             {
                 TransferUtility directoryTransferUtility = new TransferUtility(new AmazonS3Client(AccessKey, SecretKey, Amazon.RegionEndpoint.GetBySystemName(RegionOfTheBucket)));
